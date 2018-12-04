@@ -14,3 +14,7 @@ Django has a really great error-debug-page: You see the stacktrace and all local
 
 
 SELECT ... FROM @itab: I think it very cool that in ABAP you can execute SQL on a tabular variable. You can run a SQL statement on something which is not your database, but just in the memory of the interpreter. Great! https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_itab.htm This allows you to avoid loops and practice "thinking in sets".
+
+I like reading the docs of Python and Django. They are short and clean. And in most cases you understand it immediately.
+That's different with the docs of SAP. The are complicated. I do not like to read them.
+Maybe I feel this way because I am familiar with Python and Django. I am new to sap. Maybe it is just a biased feeling. Maybe not.
