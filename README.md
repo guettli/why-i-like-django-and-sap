@@ -18,3 +18,7 @@ SELECT ... FROM @itab: I think it very cool that in ABAP you can execute SQL on 
 I like reading the docs of Python and Django. They are short and clean. And in most cases you understand it immediately.
 That's different with the docs of SAP. The are complicated. I do not like to read them (too much text).
 Maybe I feel this way because I am familiar with Python and Django. I am new to sap. Maybe it is just a biased feeling. Maybe not.
+
+The built-in data types (list, tuples, dictionaries, sets) are great in Python. The same is possible with abap, but you need more typing: https://stackoverflow.com/questions/53613063/dictionaries-in-abap
+
+
