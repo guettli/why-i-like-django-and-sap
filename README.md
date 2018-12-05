@@ -5,7 +5,7 @@ Django: A web-framework written in the programming language Python. It is open s
 
 SAP (Netweaver): A technology of the software company SAP SE, and the technical foundation for many SAP applications.
 
-In the following text I use the term "SAP" and mean "SAP Netweaver".
+In the following text I use the term "SAP" and mean "SAP Netweaver". That's how people it meet talk. The term "Netweaver" is hardly ever used.
 
 SAP gives me the felling: "do not be afraid of creating new tables", since there already several thousand tables, in SAP.
 
@@ -31,3 +31,4 @@ Related: https://stackoverflow.com/questions/53595739/pyrfc-sap-get-stacktrace-o
 
 Docs are available in SAP itself via tcode ABAPDOCU. In Python/Django you can download the docs as HTML files. At least you could in the past. I guess today nobody still downloads docs. Most developers have a permanent and fast internet connection.
 
+Both Django/Python and SAP are open source. That was a joke. SAP is not open source, but it has "accesible code". You can view and debug ABAP inside SAP. That's different if you compare this to other ERP vendors. I like this feature. Of course I like open source software with an active community more than commercial software which allows me to look at the code.
