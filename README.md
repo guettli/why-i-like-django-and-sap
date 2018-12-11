@@ -32,3 +32,6 @@ Related: https://stackoverflow.com/questions/53595739/pyrfc-sap-get-stacktrace-o
 Docs are available in SAP itself via tcode ABAPDOCU. In Python/Django you can download the docs as HTML files. At least you could in the past. I guess today nobody still downloads docs. Most developers have a permanent and fast internet connection.
 
 Both Django/Python and SAP are open source. That was a joke. SAP is not open source, but it has "accesible code". You can view and debug ABAP inside SAP. That's different if you compare this to other ERP vendors. I like this feature. Of course I like open source software with an active community more than commercial software which allows me to look at the code.
+
+
+I like Django because it is easy to use ForeignKeys which helps you to avoid redundancy. I was surprised that this is different in SAP. See related question: https://stackoverflow.com/questions/53708115/sap-introspection-resolve-foreignkey
