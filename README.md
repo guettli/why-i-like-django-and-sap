@@ -38,3 +38,5 @@ I like Django because it is easy to use ForeignKeys which helps you to avoid red
 
 I like Django because they do not support [Compound Keys](https://en.wikipedia.org/wiki/Compound_key). Compound keys make thinks much more complicated. In SAP most primary keys are compound keys. I guess this is a reason why foreign keys get used less often in SAP.
 
+
+Row-based permissions are solved in SAP. In Django this is not solved.
