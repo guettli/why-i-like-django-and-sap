@@ -40,3 +40,7 @@ I like Django because they do not support [Compound Keys](https://en.wikipedia.o
 
 
 Row-based permissions are solved in SAP. In Django this is not solved.
+
+
+Displaying tabular data in SAP is very nice. You can click on the heading of a column and in the popup-window you can enter expressions to filter the data. This works mostly everywhere. In Django admin you can use [list_filter](https://docs.djangoproject.com/en/2.1/ref/contrib/admin/#django.contrib.admin.ModelAdmin.list_filter). But this has drawbacks: First, you need to write python code to enable this. Next: you need to enable it for every column. The django admin solution is nice if you do not have many choices, but if you have thousand of choices, the django admin displays all of them in one HTML page. This does not scale.
+
