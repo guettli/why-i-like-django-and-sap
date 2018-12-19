@@ -5,7 +5,7 @@ Django: A web-framework written in the programming language Python. It is open s
 
 SAP (Netweaver): A technology of the software company SAP SE, and the technical foundation for many SAP applications.
 
-In the following text I use the term "SAP" and mean "SAP Netweaver". That's how people it meet talk. The term "Netweaver" is hardly ever used.
+In the following text I use the term "SAP" and mean "SAP Netweaver". That's how people I meet talk. The term "Netweaver" is hardly ever used.
 
 SAP gives me the felling: "do not be afraid of creating new tables", since there already several thousand tables, in SAP.
 
