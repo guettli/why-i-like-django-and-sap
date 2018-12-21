@@ -49,5 +49,5 @@ Displaying tabular data in SAP is very nice. You can click on the heading of a c
 
 Both provide ways to do see the code coverage of tests: https://blogs.sap.com/2014/09/26/code-coverage-based-testing-2/
 
-On Linux you use the command line tool "top" to see the processes. On SAP sm50.
+On Linux you use the command line tool "top" to see the processes. On SAP sm50. 
 
