@@ -51,3 +51,5 @@ Both provide ways to do see the code coverage of tests: https://blogs.sap.com/20
 
 On Linux you use the command line tool "top" to see the processes. On SAP sm50. 
 
+I like Django/Python/Postgres because they work with integers in a sane way regarding leading zeros. In SAP leading zeros is really crazy. You see a number like "1234" in the screen. If you run an SQL statement "where my_column = 1234" you might not get a result, because in the database a string like "00000001234" is stored. That's why I like Django/Python/Postgres according to this aspect.
+
