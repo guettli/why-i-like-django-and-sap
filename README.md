@@ -31,6 +31,9 @@ A stacktrace contains exactly the valuable information which I need to find the 
 In ABAP you get a short-dump which contains a lot of nice data. But you need to consult tcode st22 to see the details. On the other hand this dump contains more information than a stacktrace (for example the content of local variables). 
 Related: https://stackoverflow.com/questions/53595739/pyrfc-sap-get-stacktrace-of-error-not-just-a-message
 
+I like short-dumps made by SAP. They often contain a hint. This hint suggest what could be the root of the problem and they try to provide a possible solution. Sometimes this hint helps. Often it is wrong. Nevertheless I like the intention: We (the people who create the system) want to help you. I like this spirit.
+
+
 Docs are available in SAP itself via tcode ABAPDOCU. In Python/Django you can download the docs as HTML files. At least you could in the past. I guess today nobody still downloads docs. Most developers have a permanent and fast internet connection.
 
 Both Django/Python and SAP are open source. That was a joke. SAP is not open source, but it has "accesible code". You can view and debug ABAP inside SAP. That's different if you compare this to other ERP vendors. I like this feature. Of course I like open source software with an active community more than commercial software which allows me to look at the code.
