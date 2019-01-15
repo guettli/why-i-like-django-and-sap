@@ -59,5 +59,7 @@ On Linux you use the command line tool "top" to see the processes. On SAP sm50.
 I like Django/Python/Postgres because they work with integers in a sane way regarding leading zeros. In SAP leading zeros are really crazy. You see a number like "1234" on the screen. If you run an SQL statement "where my_column = 1234" you might not get a result, because in the database a string like "00000001234" is stored. That's why I like Django/Python/Postgres according to this aspect.
 
 
-I like Python and the Django-ORM because they have sane ways to handle boolean values True and False. In ABAP boolean does not exist. Quoting the docs (looks like a joke, but it is not): "ABAP does not yet support Boolean data types and thus does not support data objects for truth values. Therefore, the result of a logical expression cannot be assigned directly to a data object. " https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendataobjects_true_value_guidl.htm
+I like Python and the Django-ORM because they have sane ways to handle boolean values True and False. In ABAP boolean does not exist. Quoting the docs (looks like a joke, but it is not): "ABAP does not yet support Boolean data types and thus does not support data objects for truth values. Therefore, the result of a logical expression cannot be assigned directly to a data object. " https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendataobjects_true_value_guidl.htm Since SAP does not provide a boolean (just abap_bool which is a charater field of lenght 1), there are several hundret custom data types in every sap which re-invent boolean. This slows down development and maybe more important: you loose the fun of developing.
+
+
 
