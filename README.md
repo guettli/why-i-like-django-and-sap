@@ -63,3 +63,7 @@ I like Python and the Django-ORM because they have sane ways to handle boolean v
 Django supports one sane and simple solution to store booleans in a database: https://docs.djangoproject.com/en/2.1/ref/models/fields/#booleanfield
 
 
+I like the Python/Django/PostgreSQL stacke because no big change is expected in the future. There will be several small improvements, but no big change which will slow me down. This is different in SAP: Hana will come and nobody really knows what will happen in the future. I like HANA as database. It is fast and I trust that bundling of hardware and software to be rock solid.
+But of course I know, that there are other in-memory databases available: https://en.wikipedia.org/wiki/List_of_in-memory_databases .. back to what I like: a lot of continuous little updates - the way Python, Django and PostgreSQL get developed.
+
+
