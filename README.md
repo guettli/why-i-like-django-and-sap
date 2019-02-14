@@ -67,3 +67,10 @@ I like the Python/Django/PostgreSQL stacke because no big change is expected in 
 But of course I know, that there are other in-memory databases available: https://en.wikipedia.org/wiki/List_of_in-memory_databases .. back to what I like: a lot of continuous little updates - the way Python, Django and PostgreSQL get developed.
 
 
+I like Python/Django because the community is great. If you think something is wrong you can speak up, and it is likely that you get a reply. If you compare the Stackoverflow tag trend (Python ABAP), then ABAP is even not visible: http://sotagtrends.com/?tags=[python,abap]
+SAP has a newsletter called "SAP Community Voice". I am subscribed to it. It contains good articles. But the title does not match. It is not the community voice. It is the voice of advertising. If you want to hear the community ask abap developers if they like the language and the sap environment. I talked to some people doing abap daily. I don't want to cite them here.
+
+
+
+
+
