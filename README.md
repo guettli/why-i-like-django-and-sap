@@ -70,6 +70,7 @@ But of course I know, that there are other in-memory databases available: https:
 I like Python/Django because the community is great. If you think something is wrong you can speak up, and it is likely that you get a reply. If you compare the Stackoverflow tag trend (Python ABAP), then ABAP is even not visible: http://sotagtrends.com/?tags=[python,abap]
 SAP has a newsletter called "SAP Community Voice". I am subscribed to it. It contains good articles. But the title does not match. It is not the community voice. It is the voice of advertising. If you want to hear the community ask abap developers if they like the language and the sap environment. I talked to some people doing abap daily. I don't want to cite them here.
 
+## PostgreSQL Data Types
 
 I like Python/Django/PostgreSQL because in the database you have some basic data types like integer, boolean, varchar, text, date, timedelta.... You usually do not create custom data types. In SAP you almost always need custom data elements. They are not new data types at database level. Custom data elements are something between the db and your code. I think they make live more complicated. I think they do not help much. I want **tables** and use Foreign-Keys to rows in this tables. I don't need a data element like "invoice-number".
 Related: https://www.postgresql.org/docs/current/datatype.html
