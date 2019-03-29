@@ -107,7 +107,7 @@ I like Python/Django/PostgreSQL because in the database you have some basic data
 Related: https://www.postgresql.org/docs/current/datatype.html
 
 
-## Python has great standard library (json)
+## Python has a great standard library (json)
 
 Libraries which have proven to be reliable and useful for many developers might get incoporated into the python standard library.
 This is great, since this way you have source code which is supported and gets bug fixes. And it is canonical. There are not ten libraries, no there is one implemetentation.
