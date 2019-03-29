@@ -126,6 +126,13 @@ If I search for sap docs, I often get a "http 404: file not found" error.
 
 That's my impression. I have no numbers to prove this.
 
+## Python: Installing open source libraries is easy.
+
+There are many great open source libraries at: https://pypi.org/
+Installing them with the tool `pip` is very easy.
+
+There are some cool open source tools for sap, too. For example ZTOAD: http://quelquepart.biz/article7/ztoad-requeteur-open-sql
+But getting it installed in SAP is complicated.
 
 
 
