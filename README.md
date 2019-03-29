@@ -116,6 +116,16 @@ You want to convert to create json from ABAP? Yes, it is possible. But there are
 
 In Python it is easy (I love "no brainers"), since there is one lib in the standard library, no need to find the matching lib: https://docs.python.org/3/library/json.html
 
+## URLs for docs do not change.
+
+The URLs for the docs do hardly change in the Python/Django/PostgreSQL world.
+
+The URLs are nice and you could remember them (but my favorite search engine is still faster then my brain).
+
+If I search for sap docs, I often get a "http 404: file not found" error.
+
+That's my impression. I have no numbers to prove this.
+
 
 
 
