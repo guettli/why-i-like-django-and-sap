@@ -114,7 +114,7 @@ This is great, since this way you have source code which is supported and gets b
 
 You want to convert to create json from ABAP? Yes, it is possible. But there are too many ways. See: https://stackoverflow.com/questions/16154293/how-to-encode-json-in-abap/38184959 Now the developer need to invest time to find the matching library.
 
-In Python it easy, since there is one lib in the standard library: https://docs.python.org/3/library/json.html
+In Python it is easy (I love "no brainers"), since there is one lib in the standard library, no need to find the matching lib: https://docs.python.org/3/library/json.html
 
 
 
