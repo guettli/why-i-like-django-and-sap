@@ -28,6 +28,8 @@ I like reading the docs of Python and Django. They are short and clean. And in m
 That's different with the docs of SAP. The are complicated. I do not like to read them (too much text). The SAP docs are bloated, it
 is hard to find simple code examples. Maybe I feel this way because I am familiar with Python and Django. I am new to sap. Maybe it is just a biased feeling. Maybe not.
 
+In SAP/ABAP world it is common to get docs from blogs. I think this is dangerous. Blog posts don't get maintained. Docs need to be come from upstream. In this case sap. If the upstream does not provide good docs (including easy to understand examples), then there will be chaos. Some docs here, some docs there and most of the updated and unmaintained. 
+
 ## Python: A lot of useful data types
 
 The built-in data types (list, tuples, dictionaries, sets) are great in Python. The same is possible with abap, but you need more typing: https://stackoverflow.com/questions/53613063/dictionaries-in-abap
