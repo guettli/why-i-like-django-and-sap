@@ -20,7 +20,7 @@ Django has a really great error-debug-page: You see the stacktrace and all local
 
 ## SAP: SQL on data in Memory
 
-SELECT ... FROM @itab: I think it very cool that in ABAP you can execute SQL on a tabular variable. You can run a SQL statement on something which is not your database, but just in the memory of the interpreter. Great! https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_itab.htm This allows you to avoid loops and practice "thinking in sets".
+SELECT ... FROM @itab: I think it is great that in ABAP you can execute SQL on a tabular variable. You can run a SQL statement on something which is not your database, but just in the memory of the interpreter. Great! https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_itab.htm This allows you to avoid loops and practice "thinking in sets".
 
 ## Python/Django/PostgreSQL docs are great
 
