@@ -136,5 +136,13 @@ Installing them with the tool `pip` is very easy.
 There are some cool open source tools for sap, too. For example ZTOAD: http://quelquepart.biz/article7/ztoad-requeteur-open-sql
 But getting it installed in SAP is complicated.
 
+## Linux: simple process and user model.
+
+Linux is great because the process and user model is simple. If you are root, you can debug any process and you can get any local linux user you like.
+
+In ABAP/SAP this is not possible, at least not as simple as in linux:
+
+https://stackoverflow.com/questions/55742890/debugging-as-different-user
+
 
 
