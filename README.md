@@ -168,5 +168,5 @@ Releasing the interpreters, compilers, libraries and related tools as open sourc
 
 Looking at above list of languages: ABAP is not even mentioned.
 
-
+For google it will be easy to find people familiar with open source languages like Python, Go or TypeScript.
 
