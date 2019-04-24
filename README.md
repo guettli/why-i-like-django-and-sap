@@ -30,6 +30,11 @@ is hard to find simple code examples. Maybe I feel this way because I am familia
 
 In SAP/ABAP world it is common to get docs from blogs. I think this is dangerous. Blog posts don't get maintained. Docs need to be come from upstream. In this case sap. If the upstream does not provide good docs (including easy to understand examples), then there will be chaos. Some docs here, some docs there and most of the updated and unmaintained. 
 
+If a enter "foo_method python" (with "foo_method" being a method of the standard library of python), my favorite search engine provides the canonical page for this method on the top. 
+
+If I search for "foo_method abap" (with "foo_method" being a method of the standard library of abap), my favorite search engine does provide a lot of blog entries (some of them are outdated). The canonical URL for the documentation of this method, seems to not be missing. You can read docs via SAP-GUI, but docs like this (non-online docs, just available via the custom native GUI) are not state of the art. 
+
+
 ## Python: A lot of useful data types
 
 The built-in data types (list, tuples, dictionaries, sets) are great in Python. The same is possible with abap, but you need more typing: https://stackoverflow.com/questions/53613063/dictionaries-in-abap
