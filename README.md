@@ -145,4 +145,14 @@ In ABAP/SAP this is not possible, at least not as simple as in linux:
 https://stackoverflow.com/questions/55742890/debugging-as-different-user
 
 
+## I like debuggging Python Code: I can evaluate code snippets during debugging.
+
+During debugging Python Code (I use PyCharm, but other IDEs support this, too) I can display the content of variables. This works in ABAP (SE80), too.
+
+But in Python I can evaluate small expressions during debugging. For example I can evaluate `len(my_string)`.
+
+Unfortunately this is not possible in ABAP. To get this in ABAP you need to add a new code line (for example `data(my_len) = strlen( my_string )'). And start debugging again.
+
+
+
 
