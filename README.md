@@ -158,7 +158,7 @@ Unfortunately this is not possible in ABAP. To get this in ABAP you need to add 
 
 Python is the most loved programming language in the year 2019: https://fossbytes.com/most-loved-hated-programming-languages-2019/
 
-It feels good.
+Python feels good.
 
 It is great, that I can calls SAP-RFC with the python library pyRFC. But sever side code needs to be written in ABAP. And the language ABAP is hardly known. 
 
