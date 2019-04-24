@@ -156,11 +156,17 @@ Unfortunately this is not possible in ABAP. To get this in ABAP you need to add 
 
 ## With Python/Django/PostgreSQL I can use a very popular programming language
 
-Python is the most loved programming language in the year 2019: https://fossbytes.com/most-loved-hated-programming-languages-2019/
+Python is the most loved programming language in the year 2019: https://hired.com/page/state-of-software-engineers/hottest-coding-languages/#most-loved-languages
 
 Python feels good.
 
 It is great, that I can calls SAP-RFC with the python library pyRFC. But sever side code needs to be written in ABAP. And the language ABAP is hardly known. 
+
+Young people which have finished there education and look at several job opportunities have the choice. Their choice is important and money is only one small part of the decission. They choose what they like. They choose what they are familiar with. 
+
+Releasing the interpreters, compilers, libraries and related tools as open source was a clever decision by google, microsoft and other big players.
+
+Looking at above list of languages: ABAP is not even mentioned.
 
 
 
