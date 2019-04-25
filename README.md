@@ -175,3 +175,9 @@ Looking at above list of languages: ABAP is not even mentioned.
 
 For google it will be easy to find people familiar with open source languages like Python, Go or TypeScript.
 
+## I like Python/Django/PostgreSQL: git
+
+With the Python/Django/PostgreSQL stack I can use any version control system which I like. And I like git.
+
+SAP (se80) has a built in version control. It works for most cases. But I prefer git: it has more features and I find more usefull docs via my favorite search engine.
+
