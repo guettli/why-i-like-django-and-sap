@@ -181,3 +181,19 @@ With the Python/Django/PostgreSQL stack I can use any version control system whi
 
 SAP (se80) has a built in version control. It works for most cases. But I prefer git: it has more features and I find more usefull docs via my favorite search engine.
 
+## I like current web solution: libraries for clients are often 100% open source.
+
+In most cases the libraries for accessing services are mostly 100% open source. For example the libraries to access amazon services are 100% open source.
+
+For PyRFC (the Python librarie to access SAP via their custom RFC protocol) is 50% open source. The part on github is open source.
+
+But you need the closed source:
+
+> SAP NW RFC SDK C++ binaries must be downloaded (SAP partner or customer account required) 
+
+This slows down developement. The company I work for is a SAP partner. But nevertheless this fact makes things more complicated:
+
+* I need to build a custom package since "SAP NW RFC SDK C++ binaries" are not freely redistributable. Other libraries (to closed source services) like boto for s3 can get downloaded from pypi.
+
+* I want to use a new version of pyRFC: I need build our custom python package again. Now I need find my password to get to the new libraries for a custom sap page .... grrr
+
