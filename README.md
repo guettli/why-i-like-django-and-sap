@@ -181,7 +181,7 @@ With the Python/Django/PostgreSQL stack I can use any version control system whi
 
 SAP (se80) has a built in version control. It works for most cases. But I prefer git: it has more features and I find more usefull docs via my favorite search engine.
 
-## I like current web solution: libraries for clients are often 100% open source.
+## I like current web solutions: libraries for clients are 100% open source.
 
 In most cases the libraries for accessing services are mostly 100% open source. For example the libraries to access amazon services are 100% open source.
 
