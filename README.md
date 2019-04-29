@@ -158,6 +158,7 @@ But in Python I can evaluate small expressions during debugging. For example I c
 
 Unfortunately this is not possible in ABAP. To get this in ABAP you need to add a new code line (for example `data(my_len) = strlen( my_string )`). And start debugging again.
 
+Here is the work-around to see the ending of a huge string during debugging with abap: https://stackoverflow.com/questions/55844508/show-the-end-of-a-big-string-during-debugging
 
 ## With Python/Django/PostgreSQL I can use a very popular programming language
 
