@@ -34,14 +34,55 @@ If a enter "foo_method python" (with "foo_method" being a method of the standard
 
 If I search for "foo_method abap" (with "foo_method" being a method of the standard library of abap), my favorite search engine does provide a lot of blog entries (some of them are outdated). The canonical URL for the documentation of this method, seems to not be missing. You can read docs via SAP-GUI, but docs like this (non-online docs, just available via the custom native GUI) are not state of the art. 
 
+## URLs for docs do not change.
+
+The URLs for the docs do hardly change in the Python/Django/PostgreSQL world.
+
+The URLs are nice and you could remember them (but my favorite search engine is still faster then my brain).
+
+If I search for sap docs, I often get a "http 404: file not found" error.
+
+That's my impression. I have no numbers to prove this.
+
 
 ## Python: A lot of useful data types
 
 The built-in data types (list, tuples, dictionaries, sets) are great in Python. The same is possible with abap, but you need more typing: https://stackoverflow.com/questions/53613063/dictionaries-in-abap
 
+
+##  Django/Python/Postgres: Integers are integers
+
+I like Django/Python/Postgres because they work with integers in a sane way regarding leading zeros. In SAP leading zeros are really crazy. You see a number like "1234" on the screen. If you run an SQL statement "where my_column = 1234" you might not get a result, because in the database a string like "00000001234" is stored. That's why I like Django/Python/Postgres according to this aspect.
+
+##  Django/Python/Postgres: Support for booleans
+
+I like Python and the Django-ORM because they have sane ways to handle boolean values True and False. In ABAP boolean does not exist. Quoting the docs (looks like a joke, but it is not): "ABAP does not yet support Boolean data types and thus does not support data objects for truth values. Therefore, the result of a logical expression cannot be assigned directly to a data object. " https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendataobjects_true_value_guidl.htm Since SAP does not provide a boolean (just abap_bool which is a charater field of lenght 1), there are several hundret custom data types in every sap which re-invent boolean. This slows down development and maybe more important: you loose the fun of developing.
+Django supports one sane and simple solution to store booleans in a database: https://docs.djangoproject.com/en/2.1/ref/models/fields/#booleanfield
+
+
+## PostgreSQL Data Types
+
+I like Python/Django/PostgreSQL because in the database you have some basic data types like integer, boolean, varchar, text, date, timedelta.... You usually do not create custom data types. In SAP you almost always need custom data elements. They are not new data types at database level. Custom data elements are something between the db and your code. I think they make live more complicated. I think they do not help much. I want **tables** and use Foreign-Keys to rows in this tables. I don't need a data element like "invoice-number".
+Related: https://www.postgresql.org/docs/current/datatype.html
+
+
+## Python has a great standard library (json)
+
+Libraries which have proven to be reliable and useful for many developers might get incoporated into the python standard library.
+This is great, since this way you have source code which is supported and gets bug fixes. And it is canonical. There are not ten libraries, no there is one implemetentation.
+
+You want to convert to create json from ABAP? Yes, it is possible. But there are too many ways. See: https://stackoverflow.com/questions/16154293/how-to-encode-json-in-abap Now the developer need to invest time to find the matching library.
+
+In Python it is easy (I love "no brainers"), since there is one lib in the standard library, no need to find the matching lib: https://docs.python.org/3/library/json.html
+
+
 ## Python: Testing is more common
 
 Unittesting and checking code coverage is daily business in Python and Django projects. In abap this is not that widespread. Maybe I am biased. This is my personal perception.
+
+## Python: Test coverage
+
+Both provide ways to do see the code coverage of tests: https://blogs.sap.com/2014/09/26/code-coverage-based-testing-2/
 
 ## Python: I like the stacktrace
 
@@ -67,36 +108,52 @@ Of course tools like https://www.pgadmin.org/ exist to make every table availabl
 
 ## Django uses foreign-keys
 
-I like Django because it is easy to use ForeignKeys which helps you to avoid redundancy. I was surprised that this is different in SAP. See related question: https://stackoverflow.com/questions/53708115/sap-introspection-resolve-foreignkey
+I like Django because it is easy to use ForeignKeys which helps you to avoid redundancy.
+I was surprised that this is different in SAP.
 
+See related question: https://stackoverflow.com/questions/53708115/sap-introspection-resolve-foreignkey
+
+
+## SAP: Column MANDT ... mistake
+
+I think it is a design mistake to share the tables between sytems like SAP does it.
+
+If you login with the SAPGUI you need to supply a client (Mandant). 
+Everything you see and do operates
+only on a subset of all tables. The user must only see and alter rows of the matching MANDT.
+
+This makes things much more complicated.
+
+It makes sense to have several stages: DEV, QUAL, PROD
+
+It makes sense to be able to run several systems on the same hardware.
+
+But the MANDT column makes more trouble than it solves. 
 
 ## Django: No compound keys
 
-I like Django because they do not support [Compound Keys](https://en.wikipedia.org/wiki/Compound_key). Compound keys make thinks much more complicated. In SAP most primary keys are compound keys. I guess this is a reason why foreign keys get used less often in SAP.
+I like Django because they do not support [Compound Keys](https://en.wikipedia.org/wiki/Compound_key).
+
+Compound keys make thinks much more complicated. 
+In SAP most primary keys are compound keys (almost all tables have the column MANDT). 
+I guess this is a reason why foreign keys get used less often in SAP.
+
+
 
 ## SAP: Row-based permissions are solved 
-Row-based permissions are solved in SAP. In Django this is not solved.
+
+Row-based permissions are solved in SAP. In Django this is not solved. At least not in Django core.
+
+You have several ways to walk around this in Django: ModelAdmin.get_queryset(), Garidan (performance can be get a problem), use only custom views.
 
 ## SAP: Tabular data
 
-Displaying tabular data in SAP is very nice. You can click on the heading of a column and in the popup-window you can enter expressions to filter the data. This works mostly everywhere. In Django admin you can use [list_filter](https://docs.djangoproject.com/en/2.1/ref/contrib/admin/#django.contrib.admin.ModelAdmin.list_filter). But this has drawbacks: First, you need to write python code to enable this. Next: you need to enable it for every column. The django admin solution is nice if you do not have many choices, but if you have thousand of choices, the django admin displays all of them in one HTML page. This does not scale.
+Displaying tabular data in SAP is very nice (ALV Grid). You can click on the heading of a column and in the popup-window you can enter expressions to filter the data. This works mostly everywhere. In Django admin you can use [list_filter](https://docs.djangoproject.com/en/2.1/ref/contrib/admin/#django.contrib.admin.ModelAdmin.list_filter). But this has drawbacks: First, you need to write python code to enable this. Next: you need to enable it for every column. The django admin solution is nice if you do not have many choices, but if you have thousand of choices, the django admin displays all of them in one HTML page. This does not scale.
 
-## Python: Test coverage
-
-Both provide ways to do see the code coverage of tests: https://blogs.sap.com/2014/09/26/code-coverage-based-testing-2/
 
 ## Linux/SAP: inspect running processes
 
 On Linux you use the command line tool "top" to see the processes. On SAP sm50. 
-
-##  Django/Python/Postgres: Integers are integers
-
-I like Django/Python/Postgres because they work with integers in a sane way regarding leading zeros. In SAP leading zeros are really crazy. You see a number like "1234" on the screen. If you run an SQL statement "where my_column = 1234" you might not get a result, because in the database a string like "00000001234" is stored. That's why I like Django/Python/Postgres according to this aspect.
-
-##  Django/Python/Postgres: Support for booleans
-
-I like Python and the Django-ORM because they have sane ways to handle boolean values True and False. In ABAP boolean does not exist. Quoting the docs (looks like a joke, but it is not): "ABAP does not yet support Boolean data types and thus does not support data objects for truth values. Therefore, the result of a logical expression cannot be assigned directly to a data object. " https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendataobjects_true_value_guidl.htm Since SAP does not provide a boolean (just abap_bool which is a charater field of lenght 1), there are several hundret custom data types in every sap which re-invent boolean. This slows down development and maybe more important: you loose the fun of developing.
-Django supports one sane and simple solution to store booleans in a database: https://docs.djangoproject.com/en/2.1/ref/models/fields/#booleanfield
 
 ## Python/Django/PostgreSQL: stable
 
@@ -107,31 +164,6 @@ But of course I know, that there are other in-memory databases available: https:
 
 I like Python/Django because the community is great. If you think something is wrong you can speak up, and it is likely that you get a reply. If you compare the Stackoverflow tag trend (Python ABAP), then ABAP is even not visible: http://sotagtrends.com/?tags=[python,abap]
 SAP has a newsletter called "SAP Community Voice". I am subscribed to it. It contains good articles. But the title does not match. It is not the community voice. It is the voice of advertising. If you want to hear the community ask abap developers if they like the language and the sap environment. I talked to some people doing abap daily. I don't want to cite them here.
-
-## PostgreSQL Data Types
-
-I like Python/Django/PostgreSQL because in the database you have some basic data types like integer, boolean, varchar, text, date, timedelta.... You usually do not create custom data types. In SAP you almost always need custom data elements. They are not new data types at database level. Custom data elements are something between the db and your code. I think they make live more complicated. I think they do not help much. I want **tables** and use Foreign-Keys to rows in this tables. I don't need a data element like "invoice-number".
-Related: https://www.postgresql.org/docs/current/datatype.html
-
-
-## Python has a great standard library (json)
-
-Libraries which have proven to be reliable and useful for many developers might get incoporated into the python standard library.
-This is great, since this way you have source code which is supported and gets bug fixes. And it is canonical. There are not ten libraries, no there is one implemetentation.
-
-You want to convert to create json from ABAP? Yes, it is possible. But there are too many ways. See: https://stackoverflow.com/questions/16154293/how-to-encode-json-in-abap Now the developer need to invest time to find the matching library.
-
-In Python it is easy (I love "no brainers"), since there is one lib in the standard library, no need to find the matching lib: https://docs.python.org/3/library/json.html
-
-## URLs for docs do not change.
-
-The URLs for the docs do hardly change in the Python/Django/PostgreSQL world.
-
-The URLs are nice and you could remember them (but my favorite search engine is still faster then my brain).
-
-If I search for sap docs, I often get a "http 404: file not found" error.
-
-That's my impression. I have no numbers to prove this.
 
 ## Python: Installing open source libraries is easy.
 
