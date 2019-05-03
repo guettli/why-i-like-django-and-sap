@@ -34,6 +34,10 @@ If a enter "foo_method python" (with "foo_method" being a method of the standard
 
 If I search for "foo_method abap" (with "foo_method" being a method of the standard library of abap), my favorite search engine does provide a lot of blog entries (some of them are outdated). The canonical URL for the documentation of this method, seems to not be missing. You can read docs via SAP-GUI, but docs like this (non-online docs, just available via the custom native GUI) are not state of the art. 
 
+Some of the SAP docs are not available online. For example "SAP NetWeaver Remote Function Call (RFC) Software Development Kit (SDK)" can be downloaded here https://support.sap.com/en/product/connectors/nwrfcsdk.html#section_1291717368
+This means I can't find this content if I use my favorite search engine, since my favorite search engine does index only web pages which are available online, not my local disk.
+
+
 ## URLs for docs do not change.
 
 The URLs for the docs do hardly change in the Python/Django/PostgreSQL world.
