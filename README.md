@@ -37,6 +37,9 @@ If I search for "foo_method abap" (with "foo_method" being a method of the stand
 Some of the SAP docs are not available online. For example "SAP NetWeaver Remote Function Call (RFC) Software Development Kit (SDK)" can be downloaded here https://support.sap.com/en/product/connectors/nwrfcsdk.html#section_1291717368
 This means I can't find this content if I use my favorite search engine, since my favorite search engine does index only web pages which are available online, not my local disk.
 
+I want to know the maximum size of xstring. The datatype xstring is like bytes in Python, it is made to contain binary data.
+If you google for "max length xstring abap" you results pointing to form posts. None of them points to the canonical upstream docs. That's all "according to hearsay", it is guessing (something you should avoid in information technology).
+
 ## SAP Notes are never part of a google search result
 
 SAP notes are only visible if you have login for the "SAP ONE Support Launchpad". This means you favorit search engine can't index them.
