@@ -256,7 +256,7 @@ In ABAP it is the same. A `string` gets terminated by a `\0`.
 
 I like Python because a string can contain a `\0`.
 
-Usually you don't want this. If you data contains a `\0` then it is binary data.
+Usually you don't want this. If your data contains a `\0` then it is binary data, not a string.
 
 This means in ABAP you should use `xstring` and in Python `bytes`.
 
