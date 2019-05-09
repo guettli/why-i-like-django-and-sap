@@ -37,6 +37,14 @@ If I search for "foo_method abap" (with "foo_method" being a method of the stand
 Some of the SAP docs are not available online. For example "SAP NetWeaver Remote Function Call (RFC) Software Development Kit (SDK)" can be downloaded here https://support.sap.com/en/product/connectors/nwrfcsdk.html#section_1291717368
 This means I can't find this content if I use my favorite search engine, since my favorite search engine does index only web pages which are available online, not my local disk.
 
+## SAP Notes are never part of a google search result
+
+SAP notes are only visible if you have login for the "SAP ONE Support Launchpad". This means you favorit search engine can't index them.
+Users can't create hyperlinks to the sap notes in Q+A sites. You just can copy+paste the number.
+I have a login to the sap notes. That's not the problem. But the current situation is not easy, not convenient, not simple, not straight forward.
+
+
+
 
 ## URLs for docs do not change.
 
