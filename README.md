@@ -247,3 +247,19 @@ This slows down developement. The company I work for is a SAP partner. But never
 
 * I want to use a new version of pyRFC: I need build our custom python package again. Now I need find my password to get to the new libraries for a custom sap page .... grrr
 
+## I like Python since a string can contain a '\0'
+
+In C a string gets terminated by the `\0` (null byte). This means strings in C can not contain this character,
+except you do your own string handling and always keep track of the lenght of the string yourself.
+
+In ABAP it is the same. A `string` gets terminated by a `\0`.
+
+I like Python because a string can contain a `\0`.
+
+Usually you don't want this. If you data contains a `\0` then it is binary data.
+
+This means in ABAP you should use `xstring` and in Python `bytes`.
+
+But nevertheless it is nice that a string in Python does not get terminated by the null byte.
+
+
