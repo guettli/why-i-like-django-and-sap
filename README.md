@@ -262,4 +262,11 @@ This means in ABAP you should use `xstring` and in Python `bytes`.
 
 But nevertheless it is nice that a string in Python does not get terminated by the null byte.
 
+## I like Python because one method can calculate the length of any type: len()
+
+In Python the method `len(my_var)` does calculate the length of the variable my_var.
+
+It does not matter if my_var is a string, bytes, dictionary or list. It simply works.
+
+In ABAP you need a different method every time: strlen() for strings, xstrlen() for xstring (bytes), lines() for internal tables .... grrrr
 
