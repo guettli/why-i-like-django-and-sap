@@ -270,3 +270,12 @@ It does not matter if my_var is a string, bytes, dictionary or list. It simply w
 
 In ABAP you need a different method every time: strlen() for strings, xstrlen() for xstring (bytes), lines() for internal tables .... grrrr
 
+## SAP: from dev-system to staging-system takes too long
+
+I develop ABAP in a staging system. Then I do a "transport" to get my new code to the next system. The staging system.
+
+https://en.wikipedia.org/wiki/Transport_%28SAP%29
+
+In my environment this takes long. Roughly 15 minutes.
+
+This is way too long, if you have a bug which is only visible and reproducible in the staging system.
