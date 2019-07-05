@@ -188,6 +188,12 @@ Installing them with the tool `pip` is very easy.
 There are some cool open source tools for sap, too. For example ZTOAD: http://quelquepart.biz/article7/ztoad-requeteur-open-sql
 But getting it installed in SAP is complicated.
 
+## Packaging
+
+How to create a package and distribute your code is documented in Python/Django world very good.
+
+SAP: https://stackoverflow.com/questions/55122908/copy-code-and-data-types-of-namespace-foo-to-second-sap-system
+
 ## Linux: simple process and user model.
 
 Linux is great because the process and user model is simple. If you are root, you can debug any process and you can get any local linux user you like.
