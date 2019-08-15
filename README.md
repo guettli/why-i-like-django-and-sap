@@ -95,6 +95,12 @@ In Python it is easy (I love "no brainers"), since there is one lib in the stand
 
 Unittesting and checking code coverage is daily business in Python and Django projects. In abap this is not that widespread. Maybe I am biased. This is my personal perception.
 
+In ABAP context testing is much harder. But that's not the language (ABAP), it is the context which makes it hard. ABAP methods often read from a lot of different tables. If you want to write an automated test, you need to be sure that your input is stable (does not change). This means you need to prepare the database accordingly. Often this stable test data is not available. It is common for sap developers to manualy set up the system to make it testable.
+
+https://stackoverflow.com/questions/57505640/stable-test-data-for-sap-is-u
+
+In Python context CI/CD is more established. Methods are often shorter and simpler and easier to test, since each method only needs a small test data set.
+
 ## Python: Test coverage
 
 Both provide ways to do see the code coverage of tests: https://blogs.sap.com/2014/09/26/code-coverage-based-testing-2/
