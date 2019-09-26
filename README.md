@@ -40,6 +40,8 @@ This means I can't find this content if I use my favorite search engine, since m
 I want to know the maximum size of xstring. The datatype xstring is like bytes in Python, it is made to contain binary data.
 If you google for "max length xstring abap" you results pointing to form posts. None of them points to the canonical upstream docs. That's all "according to hearsay", it is guessing (something you should avoid in information technology).
 
+[Permalinks](https://en.wikipedia.org/wiki/Permalink) are great!
+
 ## SAP Notes are never part of a google search result
 
 SAP notes are only visible if you have login for the "SAP ONE Support Launchpad". This means you favorit search engine can't index them.
