@@ -293,3 +293,7 @@ https://en.wikipedia.org/wiki/Transport_%28SAP%29
 In my environment this takes long. Roughly 15 minutes.
 
 This is way too long, if you have a bug which is only visible and reproducible in the staging system.
+
+## SAP maintains open source libraries reliable
+
+Some hours after reporting a bug, I received a professional answer. Some days later the fix was released. Great! https://github.com/SAP/PyRFC/issues/115
