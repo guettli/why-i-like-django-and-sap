@@ -61,6 +61,7 @@ If I search for sap docs, I often get a "http 404: file not found" error.
 
 That's my impression. I have no numbers to prove this.
 
+Related: [Cool URIs don't change](https://www.w3.org/Provider/Style/URI)
 
 ## Python: A lot of useful data types
 
