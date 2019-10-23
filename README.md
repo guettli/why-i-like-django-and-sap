@@ -298,3 +298,9 @@ This is way too long, if you have a bug which is only visible and reproducible i
 ## SAP maintains open source libraries reliable
 
 Some hours after reporting a bug, I received a professional answer. Some days later the fix was released. Great! https://github.com/SAP/PyRFC/issues/115
+
+## Python datetime is very nice
+
+Before Python 2.3 (released in the year 2003) I had not reliable way to calculate dates in Python. Since then the very handy datetime module exists. In ABAP you still store the datetime in two columns: One for the day, one for the time. This works, but is grrrrrrrrr.
+
+
