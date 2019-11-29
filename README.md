@@ -303,4 +303,11 @@ Some hours after reporting a bug, I received a professional answer. Some days la
 
 Before Python 2.3 (released in the year 2003) I had not reliable way to calculate dates in Python. Since then the very handy datetime module exists. It even has a cool datatype of timedeltas. In ABAP you still store the datetime in two columns: One for the day, one for the time. This works, but is grrrrrrrrr.
 
+## Braindead equal looking IDs
+
+In the context of SAP Content Server braindead equal looking IDs are common. Look at these: 0004AC1D0ABCA3EB99BC06ED46006BB3, 0004AC1D0ABCA3EB99CC72A5FA006BB3. What does the human eyes and brain do? The look at the first numbers "0004AC1" and the trailing numbers "006BB3". The start and the end equal, thus, fast answer: The IDs are the same. BUT they are not. They differ in the middle. That is very confusing.
+
+Something like this would not survive in the Python/Django/PostgreSQL environment. This would get rejected.
+
+
 
