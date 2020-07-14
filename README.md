@@ -45,7 +45,7 @@ If you google for "max length xstring abap" you results pointing to form posts. 
 ## SAP Notes are never part of a google search result
 
 SAP notes are only visible if you have login for the "SAP ONE Support Launchpad". This means you favorit search engine can't index them.
-Users can't create hyperlinks to the sap notes in Q+A sites. You just can copy+paste the number.
+Users can create hyperlinks to the sap notes in Q+A sites, but only users with a SAP Launchpad account can access the notes. You just can copy+paste the number.
 I have a login to the sap notes. That's not the problem. But the current situation is not easy, not convenient, not simple, not straight forward.
 
 
