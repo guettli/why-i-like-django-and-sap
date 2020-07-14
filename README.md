@@ -133,7 +133,8 @@ Of course tools like https://www.pgadmin.org/ exist to make every table availabl
 ## Django uses foreign-keys
 
 I like Django because it is easy to use ForeignKeys which helps you to avoid redundancy.
-I was surprised that this is different in SAP.
+
+I was surprised that this is different in SAP. The concept of ForeignKeys exists, but often people use a custom data element instead.
 
 See related question: https://stackoverflow.com/questions/53708115/sap-introspection-resolve-foreignkey
 
