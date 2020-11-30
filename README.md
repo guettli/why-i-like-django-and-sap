@@ -311,7 +311,7 @@ Some hours after reporting a bug, I received a professional answer. Some days la
 
 ## Python datetime is very nice
 
-Before Python 2.3 (released in the year 2003) I had not reliable way to calculate dates in Python. Since then the very handy datetime module exists. It even has a cool datatype of timedeltas. In ABAP you still store the datetime in two columns: One for the day, one for the time. This works, but is grrrrrrrrr. I heard that abap supports [Timestamps](https://help.sap.com/doc/abapdocu_751_index_htm/7.51/en-us/abentime_stamp_oview.htm), but
+Before Python 2.3 (released in the year 2003) I had no reliable way to calculate dates in Python. Since then the very handy datetime module exists. It even has a cool datatype of timedeltas. In ABAP you still store the datetime in two columns: One for the day, one for the time. This works, but is grrrrrrrrr. I heard that abap supports [Timestamps](https://help.sap.com/doc/abapdocu_751_index_htm/7.51/en-us/abentime_stamp_oview.htm), but
 at least the code I worked with stored date and time in two columns.
 
 ## Braindead equal looking IDs
